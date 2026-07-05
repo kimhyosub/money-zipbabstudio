@@ -396,7 +396,7 @@
       .map(function (c) {
         var badge = c.status === "published" ? '<span class="badge badge-published">발행</span>' : '<span class="badge badge-draft">초안</span>';
         return (
-          "<tr><td>" + c.title + "</td><td>김효섭</td><td>" + badge + "</td><td>" + c.updatedAt + "</td><td>" +
+          "<tr><td>" + c.title + "</td><td>머니연구원</td><td>" + badge + "</td><td>" + c.updatedAt + "</td><td>" +
           '<div class="admin-row-actions">' +
           '<button class="btn btn-sm btn-outline" data-edit-col="' + c.slug + '">수정</button>' +
           '<button class="btn btn-sm btn-danger" data-delete-col="' + c.slug + '">삭제</button>' +
@@ -473,7 +473,7 @@
     var html =
       '<span class="badge badge-column">칼럼</span>' +
       "<h2>" + (document.getElementById("columnTitle").value || "(제목 없음)") + "</h2>" +
-      "<p>글쓴이: 김효섭</p>" +
+      "<p>글쓴이: 머니연구원</p>" +
       "<p>" + (document.getElementById("columnSummary").value || "") + "</p>" +
       "<div>" + (document.getElementById("columnBody").value || "").replace(/\n/g, "<br>") + "</div>";
     var panel = document.getElementById("columnPreviewPanel");

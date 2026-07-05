@@ -13,7 +13,7 @@ window.SITE_CONFIG = {
   url: "https://info.zipbabstudio.com",
   mainColor: "#1E3A8A",
   subColor: "#10B981",
-  ownerName: "김효섭",
+  ownerName: "머니연구원",
   ownerBio: "복잡한 지원 정책과 금융 정보를 누구나 이해하기 쉽게 정리하는 금융 정보 큐레이터입니다.",
   ownerLongBio:
     "정부 정책 공고와 금융 상품 약관처럼 복잡하고 딱딱한 정보를 실생활에 바로 적용할 수 있는 형태로 정리해 온 콘텐츠 큐레이터입니다. 혜택을 몰라서 놓치는 사람이 없도록, 신청 자격과 절차를 최대한 쉬운 말로 전달하는 것을 목표로 스마트머니 가이드를 운영하고 있습니다.",
