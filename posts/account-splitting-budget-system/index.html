@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>통장 쪼개기 개념과 고정지출 변동지출 관리하는 시스템 구축법 | 스마트머니 가이드</title>
+<meta name="description" content="통장을 용도별로 나누면 고정지출과 변동지출을 관리하기가 훨씬 수월해집니다. 기본 개념과 시스템을 만드는 순서를 정리했습니다.">
+<link rel="canonical" href="https://info.zipbabstudio.com/posts/account-splitting-budget-system/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="통장 쪼개기 개념과 고정지출 변동지출 관리하는 시스템 구축법">
+<meta property="og:description" content="통장을 용도별로 나누면 고정지출과 변동지출을 관리하기가 훨씬 수월해집니다.">
+<meta property="og:url" content="https://info.zipbabstudio.com/posts/account-splitting-budget-system/">
+<meta property="og:site_name" content="스마트머니 가이드">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="통장 쪼개기 개념과 고정지출 변동지출 관리하는 시스템 구축법">
+<link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "통장 쪼개기 개념과 고정지출 변동지출 관리하는 시스템 구축법",
+  "description": "통장을 용도별로 나누면 고정지출과 변동지출을 관리하기가 훨씬 수월해집니다.",
+  "author": { "@type": "Organization", "name": "스마트머니 가이드 편집팀" },
+  "publisher": { "@type": "Organization", "name": "스마트머니 가이드" },
+  "datePublished": "2026-06-08",
+  "dateModified": "2026-06-08",
+  "mainEntityOfPage": "https://info.zipbabstudio.com/posts/account-splitting-budget-system/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://info.zipbabstudio.com/" },
+    { "@type": "ListItem", "position": 2, "name": "금융 기초", "item": "https://info.zipbabstudio.com/categories/finance-basics/" },
+    { "@type": "ListItem", "position": 3, "name": "통장 쪼개기 시스템", "item": "https://info.zipbabstudio.com/posts/account-splitting-budget-system/" }
+  ]
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">본문으로 바로가기</a>
+<header class="site-header" id="site-header"></header>
+<nav class="breadcrumb" aria-label="브레드크럼">
+  <ol>
+    <li><a href="/">홈</a></li>
+    <li><a href="/categories/finance-basics/">금융 기초</a></li>
+    <li aria-current="page">통장 쪼개기 시스템</li>
+  </ol>
+</nav>
+
+<main id="main">
+  <article>
+  <div class="article-header">
+    <span class="post-card-cat">금융 기초</span>
+    <h1>통장 쪼개기 개념과 고정지출 변동지출 관리하는 시스템 구축법</h1>
+    <p class="article-lead">통장을 용도별로 나누면 고정지출과 변동지출을 관리하기가 훨씬 수월해집니다. 기본 개념과 시스템을 만드는 순서를 정리했습니다.</p>
+    <div class="article-meta">
+      <span>작성 스마트머니 가이드 편집팀</span>
+      <span>발행 2026년 6월 8일</span>
+      <span>수정 2026년 6월 8일</span>
+    </div>
+  </div>
+
+  <div class="article-body">
+    <nav class="toc" aria-label="목차">
+      <h2>목차</h2>
+      <ol>
+        <li><a href="#why">한 통장으로 관리하면 생기는 문제</a></li>
+        <li><a href="#standard">통장 쪼개기의 기본 개념</a></li>
+        <li><a href="#tips">실제 팁: 시스템 만드는 순서</a></li>
+        <li><a href="#caution">주의할 점</a></li>
+        <li><a href="#summary">정리</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="why">한 통장으로 관리하면 생기는 문제</h2>
+    <p>월급이 들어오는 통장 하나로 모든 지출을 처리하면, 지금 쓸 수 있는 돈이 얼마인지 감이 잘 오지 않는 경우가 많습니다. 월세나 보험료 같은 고정지출과 식비, 취미 생활 같은 변동지출이 뒤섞여 있다 보니, 월말에 잔액이 부족해지는 이유를 스스로 파악하기 어려운 것입니다.</p>
+
+    <h2 id="standard">통장 쪼개기의 기본 개념</h2>
+    <p>통장 쪼개기는 월급 통장을 용도별로 나누어, 급여일에 각 통장으로 자동이체가 이루어지도록 설계하는 방법입니다. 일반적으로 고정지출 통장, 변동지출(생활비) 통장, 저축·투자 통장, 비상금 통장 정도로 나누는 경우가 많으며, 각 통장의 잔액만 보아도 지금 쓸 수 있는 돈과 모아야 할 돈이 한눈에 구분됩니다.</p>
+
+    <h2 id="tips">실제 팁: 시스템 만드는 순서</h2>
+    <p>먼저 최근 몇 달간의 지출 내역을 살펴보고, 매달 금액이 거의 고정되어 있는 항목(월세, 보험료, 통신비, 구독료 등)을 따로 추려냅니다. 그다음 이 고정지출의 합계만큼을 급여일에 고정지출 통장으로 자동이체되도록 설정합니다. 남은 금액 중 저축·투자로 떼어둘 금액을 정해 별도 통장으로 옮기고, 나머지를 변동지출 통장에 남겨 그 안에서만 생활비를 쓰는 방식으로 운영하면 지출 통제가 훨씬 쉬워집니다.</p>
+
+    <h2 id="caution">주의할 점</h2>
+    <p>통장을 너무 잘게 쪼개면 오히려 관리 자체가 번거로워질 수 있습니다. 처음에는 3~4개 정도의 통장으로 단순하게 시작하고, 익숙해진 뒤 필요에 따라 세분화하는 것이 좋습니다. 또한 자동이체 순서를 잘못 설정하면 고정지출이 빠지기 전에 다른 통장으로 돈이 먼저 이체되어 잔액 부족이 발생할 수 있으므로, 이체 순서와 날짜를 급여일 기준으로 신중하게 설정해야 합니다.</p>
+
+    <div class="summary-box">
+      <h3>핵심 요약</h3>
+      <p>통장 쪼개기는 고정지출, 변동지출, 저축을 통장 단위로 분리해 지출을 통제하는 방법입니다. 최근 지출 내역을 기준으로 고정지출 금액을 먼저 파악하고, 급여일에 맞춰 자동이체를 설정하는 것이 핵심입니다.</p>
+    </div>
+
+    <div class="mistake-box">
+      <h3>초보자가 자주 하는 실수</h3>
+      <ul>
+        <li>처음부터 너무 많은 통장으로 잘게 쪼개 관리가 번거로워지는 경우</li>
+        <li>자동이체 순서를 잘못 설정해 고정지출 통장에 잔액이 부족해지는 경우</li>
+        <li>변동지출 통장 잔액이 남았다고 다른 용도로 써버리는 경우</li>
+      </ul>
+    </div>
+
+    <div class="checklist-box">
+      <h3>체크리스트</h3>
+      <ul>
+        <li>최근 지출 내역을 기준으로 고정지출 항목을 정리했는가</li>
+        <li>급여일에 맞춰 통장별 자동이체 순서를 설정했는가</li>
+        <li>변동지출 통장의 한도 안에서만 생활비를 쓰고 있는가</li>
+        <li>저축·비상금 통장은 별도로 분리해 두었는가</li>
+      </ul>
+    </div>
+
+    <h2 id="summary">정리</h2>
+    <p>통장 쪼개기는 복잡한 금융 지식이 없어도 바로 시작할 수 있는 지출 관리 방법입니다. 처음에는 단순한 구조로 시작해 습관을 들이고, 필요에 따라 통장 구성을 조금씩 조정해 나가는 것이 오래 유지하는 비결입니다.</p>
+
+    <p class="disclaimer-note">이 글은 일반적인 가계 관리 방법을 소개한 것이며, 구체적인 금액 배분은 개인의 소득과 지출 상황에 따라 달라질 수 있습니다.</p>
+  </div>
+
+  <div class="editor-box">
+    <div class="owner-box">
+      <div class="owner-avatar" aria-hidden="true">김</div>
+      <div>
+        <p>이 글은 <a class="owner-name-link" href="/author/">김효섭</a>이 검토했습니다.</p>
+        <p>복잡한 지원 정책과 금융 정보를 누구나 이해하기 쉽게 정리하는 금융 정보 큐레이터로, 스마트머니 가이드의 모든 콘텐츠를 기획하고 점검하고 있습니다.</p>
+      </div>
+    </div>
+  </div>
+  </article>
+
+  <div class="related-posts">
+    <h2>관련 글</h2>
+    <ul class="related-list">
+      <li><a href="/posts/deposit-savings-interest-diff/">정기예금과 정기적금의 이자 계산 방식 차이점 및 유리한 선택법</a></li>
+      <li><a href="/posts/credit-score-social-newbie/">신용점수 올리는 법: 사회초년생이 체크해야 할 신용 관리 습관</a></li>
+    </ul>
+  </div>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="/data/site.config.js"></script>
+<script src="/data/categories.js"></script>
+<script src="/data/posts.js"></script>
+<script src="/data/columns.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/auth.js"></script>
+</body>
+</html>
