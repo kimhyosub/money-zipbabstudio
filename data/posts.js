@@ -184,5 +184,17 @@ window.POSTS = [
     featured: false,
     hasFaq: false,
     related: ["deposit-savings-interest-diff", "credit-score-social-newbie"]
+  },
+  {
+    slug: "basic-livelihood-income-standard",
+    title: "기초생활수급자 생계급여 신청 자격과 소득인정액 기본 개념",
+    summary:
+      "생계급여는 소득만이 아니라 재산까지 합산한 소득인정액을 기준으로 판단합니다. 소득인정액이 무엇인지와 기본 산정 구조를 정리했습니다.",
+    category: "gov-subsidy",
+    publishedAt: "2026-07-05",
+    updatedAt: "2026-07-05",
+    featured: false,
+    hasFaq: true,
+    related: ["earned-income-tax-credit-basic", "bogeumjari24-hidden-benefits"]
   }
 ];
