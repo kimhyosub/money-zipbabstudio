@@ -62,7 +62,7 @@
     { "category": "finance-basics", "title": "연말정산 미리보기 서비스 활용하는 기본 순서", "angle": "미리보기 서비스 이용 절차", "status": "pending" }
   ],
   "columnQueue": [
-    { "title": "정부 지원금 공고문은 왜 이렇게 어렵게 쓰여 있을까", "angle": "관공서 문체와 이해도 격차에 대한 관찰", "status": "pending" },
+    { "title": "정부 지원금 공고문은 왜 이렇게 어렵게 쓰여 있을까", "angle": "관공서 문체와 이해도 격차에 대한 관찰", "status": "published", "slug": "gov-subsidy-notice-language", "publishedAt": "2026-07-06" },
     { "title": "청년들이 가장 자주 놓치는 지원금 유형에 대한 생각", "angle": "신청 자격 오해 패턴 관찰", "status": "pending" },
     { "title": "금융 상품 약관을 읽는 것도 습관이라는 것을 알게 된 계기", "angle": "약관 확인 습관에 대한 관점", "status": "pending" },
     { "title": "지원금 신청 시기를 놓치는 사람들의 공통점", "angle": "신청 기한 관리 습관 관찰", "status": "pending" },
