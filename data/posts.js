@@ -196,5 +196,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["earned-income-tax-credit-basic", "bogeumjari24-hidden-benefits"]
+  },
+  {
+    slug: "youth-naeil-savings-account-guide",
+    title: "청년내일저축계좌 가입 조건과 3년 만기 구조",
+    summary:
+      "청년내일저축계좌는 근로소득 요건을 충족하면 정부 매칭 지원금을 받을 수 있는 자산 형성 상품입니다. 가입 조건과 3년 만기까지의 구조를 정리했습니다.",
+    category: "youth-policy",
+    publishedAt: "2026-07-06",
+    updatedAt: "2026-07-06",
+    featured: false,
+    hasFaq: true,
+    related: ["youth-hope-account-tips", "youth-rent-support-checklist"]
   }
 ];
