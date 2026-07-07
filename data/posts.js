@@ -244,5 +244,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["deposit-savings-interest-diff", "youth-housing-dream-account"]
+  },
+  {
+    slug: "earned-income-credit-filing-timing-diff",
+    title: "근로장려금 반기 신청과 정기 신청의 차이",
+    summary:
+      "근로장려금은 신청 시기에 따라 반기 신청과 정기 신청 중 하나를 고를 수 있습니다. 두 방식의 구조와 신청 시기별 장단점을 정리했습니다.",
+    category: "gov-subsidy",
+    publishedAt: "2026-07-07",
+    updatedAt: "2026-07-07",
+    featured: false,
+    hasFaq: true,
+    related: ["earned-income-tax-credit-basic", "employment-support-type1-type2"]
   }
 ];
