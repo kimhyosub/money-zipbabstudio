@@ -208,5 +208,29 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["youth-hope-account-tips", "youth-rent-support-checklist"]
+  },
+  {
+    slug: "small-biz-policy-fund-loan-guide",
+    title: "소상공인 정책자금 융자 신청 절차와 준비 서류",
+    summary:
+      "소상공인 정책자금 융자는 준비 서류와 신청 순서를 미리 알아두면 진행이 훨씬 수월합니다. 신청 절차와 챙겨야 할 서류를 정리했습니다.",
+    category: "small-biz",
+    publishedAt: "2026-07-07",
+    updatedAt: "2026-07-07",
+    featured: false,
+    hasFaq: true,
+    related: ["small-biz-loss-compensation-faq", "yellow-umbrella-deposit-guide"]
+  },
+  {
+    slug: "car-mileage-tax-discount",
+    title: "승용차 마일리지 제도로 자동차세 아끼는 법",
+    summary:
+      "승용차 마일리지 제도는 연간 주행거리가 적을수록 자동차세를 감면받는 제도입니다. 등록 방법과 감면율을 확인하는 요령을 정리했습니다.",
+    category: "living-saving",
+    publishedAt: "2026-07-07",
+    updatedAt: "2026-07-07",
+    featured: false,
+    hasFaq: true,
+    related: ["alddle-transport-card-plus", "energy-cashback-electricity-saving"]
   }
 ];
