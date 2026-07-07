@@ -232,5 +232,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["alddle-transport-card-plus", "energy-cashback-electricity-saving"]
+  },
+  {
+    slug: "housing-subscription-interest-timing",
+    title: "청약통장 이자, 언제부터 받을 수 있는지 기본 개념",
+    summary:
+      "청약통장은 예금·적금처럼 이자가 자동으로 지급되지 않고 정해진 시점에만 정산됩니다. 이자가 쌓이는 구조와 가입 기간별 적용 방식을 정리했습니다.",
+    category: "finance-basics",
+    publishedAt: "2026-07-07",
+    updatedAt: "2026-07-07",
+    featured: false,
+    hasFaq: true,
+    related: ["deposit-savings-interest-diff", "youth-housing-dream-account"]
   }
 ];

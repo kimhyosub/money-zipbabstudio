@@ -39,6 +39,13 @@
       "type": "column",
       "title": "청년들이 가장 자주 놓치는 지원금 유형에 대한 생각",
       "slug": "youth-missed-subsidy-patterns"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "post",
+      "category": "finance-basics",
+      "title": "청약통장 이자, 언제부터 받을 수 있는지 기본 개념",
+      "slug": "housing-subscription-interest-timing"
     }
   ]
 }
