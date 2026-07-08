@@ -256,5 +256,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["earned-income-tax-credit-basic", "employment-support-type1-type2"]
+  },
+  {
+    slug: "youth-jeonse-loan-types-comparison",
+    title: "청년 전세자금대출 종류별 한도 비교",
+    summary:
+      "청년을 위한 전세자금대출은 버팀목전세자금대출과 중소기업취업청년 전월세보증금대출 등 상품별로 조건과 한도 산정 방식이 다릅니다. 상품별 차이를 정리했습니다.",
+    category: "youth-policy",
+    publishedAt: "2026-07-08",
+    updatedAt: "2026-07-08",
+    featured: false,
+    hasFaq: true,
+    related: ["youth-housing-dream-account", "youth-rent-support-checklist"]
   }
 ];
