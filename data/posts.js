@@ -268,5 +268,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["youth-housing-dream-account", "youth-rent-support-checklist"]
+  },
+  {
+    slug: "credit-guarantee-foundation-basic-process",
+    title: "신용보증재단 보증서 발급받는 기본 절차",
+    summary:
+      "신용보증재단 보증서는 담보나 신용이 부족한 소상공인이 대출을 받을 때 심사를 보완해주는 장치입니다. 보증서 발급까지의 기본 절차와 확인할 점을 정리했습니다.",
+    category: "small-biz",
+    publishedAt: "2026-07-09",
+    updatedAt: "2026-07-09",
+    featured: false,
+    hasFaq: true,
+    related: ["small-biz-policy-fund-loan-guide", "job-stability-fund-insurance"]
   }
 ];

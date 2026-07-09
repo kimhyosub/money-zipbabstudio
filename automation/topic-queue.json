@@ -2,7 +2,7 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(07:00/13:00 글, 19:00 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다. 정부 지원 정책 관련 글은 구체적인 금액·소득 기준을 단정하지 말고 공식 채널 확인을 안내해야 합니다(CLAUDE.md 참고).",
   "rotation": {
     "categoryOrder": ["gov-subsidy", "youth-policy", "small-biz", "living-saving", "finance-basics"],
-    "lastCategoryIndex": 1,
+    "lastCategoryIndex": 2,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다. 초기값 4는 5개 카테고리에 이미 각 3편씩 수동으로 발행되어 있어, 다음 자동 발행은 인덱스 0(gov-subsidy)부터 시작합니다."
   },
   "postQueue": [
@@ -29,7 +29,7 @@
     { "category": "youth-policy", "title": "지자체 청년수당, 거주 요건부터 확인해야 하는 이유", "angle": "거주지 요건과 신청 절차", "status": "pending" },
 
     { "category": "small-biz", "title": "소상공인 정책자금 융자 신청 절차와 준비 서류", "angle": "신청 순서와 필요 서류 정리", "status": "published", "slug": "small-biz-policy-fund-loan-guide", "publishedAt": "2026-07-07" },
-    { "category": "small-biz", "title": "신용보증재단 보증서 발급받는 기본 절차", "angle": "보증 심사 절차 이해하기", "status": "pending" },
+    { "category": "small-biz", "title": "신용보증재단 보증서 발급받는 기본 절차", "angle": "보증 심사 절차 이해하기", "status": "published", "slug": "credit-guarantee-foundation-basic-process", "publishedAt": "2026-07-09" },
     { "category": "small-biz", "title": "온누리상품권 가맹점 등록 조건과 혜택", "angle": "등록 요건과 소비자 할인 구조", "status": "pending" },
     { "category": "small-biz", "title": "소상공인 스마트상점 지원사업 신청 자격", "angle": "디지털 전환 지원 대상 확인", "status": "pending" },
     { "category": "small-biz", "title": "폐업 소상공인 재도전장려금 신청 조건", "angle": "폐업 사유별 지원 요건", "status": "pending" },
