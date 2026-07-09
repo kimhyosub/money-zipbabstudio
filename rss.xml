@@ -5,8 +5,24 @@
     <link>https://info.zipbabstudio.com/</link>
     <description>일상을 바꾸는 현명한 생활 금융 지식과 정부 지원 정보 - 정부 지원금, 청년 정책, 소상공인 지원, 생활 절약, 금융 기초 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://info.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>지원금 신청 시기를 놓치는 사람들의 공통점</title>
+      <link>https://info.zipbabstudio.com/columns/missed-application-deadline-habits/</link>
+      <guid isPermaLink="true">https://info.zipbabstudio.com/columns/missed-application-deadline-habits/</guid>
+      <description>정부 지원금 콘텐츠를 정리하다 보면 자격은 충분한데 신청 기한을 놓쳐 혜택을 못 받는 사례를 자주 만납니다. 그 안에서 발견한 공통된 습관을 정리했습니다.</description>
+      <category>칼럼</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>국민행복카드로 받는 지원금 종류와 사용처 확인하는 법</title>
+      <link>https://info.zipbabstudio.com/posts/happy-card-voucher-guide/</link>
+      <guid isPermaLink="true">https://info.zipbabstudio.com/posts/happy-card-voucher-guide/</guid>
+      <description>국민행복카드는 임신·출산·양육과 관련된 여러 정부 바우처를 한 장의 카드로 사용할 수 있게 해줍니다. 카드에 담기는 지원금 종류와 사용처를 확인하는 방법을 정리했습니다.</description>
+      <category>생활 절약</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>금융 상품 약관을 읽는 것도 습관이라는 것을 알게 된 계기</title>
       <link>https://info.zipbabstudio.com/columns/financial-terms-reading-habit/</link>
@@ -230,14 +246,6 @@
       <description>국민취업지원제도는 유형에 따라 지원 내용과 자격 요건이 다릅니다. 1유형과 2유형의 차이와 구직촉진수당 조건을 정리했습니다.</description>
       <category>정부 지원금</category>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>정부24·보조금24 활용법: 내가 놓친 숨은 지원금 3분 만에 찾는 방법</title>
-      <link>https://info.zipbabstudio.com/posts/bogeumjari24-hidden-benefits/</link>
-      <guid isPermaLink="true">https://info.zipbabstudio.com/posts/bogeumjari24-hidden-benefits/</guid>
-      <description>정부24와 보조금24를 함께 쓰면 나에게 맞는 지원금을 훨씬 빠르게 찾을 수 있습니다. 조회부터 신청까지 기본 흐름을 정리했습니다.</description>
-      <category>정부 지원금</category>
-      <pubDate>Mon, 12 Jan 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

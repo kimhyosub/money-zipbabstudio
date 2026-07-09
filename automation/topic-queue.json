@@ -2,7 +2,7 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(07:00/13:00 글, 19:00 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다. 정부 지원 정책 관련 글은 구체적인 금액·소득 기준을 단정하지 말고 공식 채널 확인을 안내해야 합니다(CLAUDE.md 참고).",
   "rotation": {
     "categoryOrder": ["gov-subsidy", "youth-policy", "small-biz", "living-saving", "finance-basics"],
-    "lastCategoryIndex": 2,
+    "lastCategoryIndex": 3,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다. 초기값 4는 5개 카테고리에 이미 각 3편씩 수동으로 발행되어 있어, 다음 자동 발행은 인덱스 0(gov-subsidy)부터 시작합니다."
   },
   "postQueue": [
@@ -40,7 +40,7 @@
     { "category": "small-biz", "title": "소상공인 화재보험 지원사업 신청 절차", "angle": "지원 대상 업종과 신청 방법", "status": "pending" },
 
     { "category": "living-saving", "title": "승용차 마일리지 제도로 자동차세 아끼는 법", "angle": "주행거리 등록과 감면율 확인", "status": "published", "slug": "car-mileage-tax-discount", "publishedAt": "2026-07-07" },
-    { "category": "living-saving", "title": "국민행복카드 지원금 종류와 사용처 확인", "angle": "바우처 종류별 사용 범위", "status": "pending" },
+    { "category": "living-saving", "title": "국민행복카드 지원금 종류와 사용처 확인", "angle": "바우처 종류별 사용 범위", "status": "published", "slug": "happy-card-voucher-guide", "publishedAt": "2026-07-10" },
     { "category": "living-saving", "title": "수도요금 감면 대상과 신청 방법", "angle": "감면 대상 가구와 신청 절차", "status": "pending" },
     { "category": "living-saving", "title": "도시가스 캐시백 신청 조건과 절감 요령", "angle": "신청 방법과 절감 실천 요령", "status": "pending" },
     { "category": "living-saving", "title": "다자녀·다둥이 카드 혜택 총정리", "angle": "발급 대상과 할인 혜택 범위", "status": "pending" },
@@ -65,7 +65,7 @@
     { "title": "정부 지원금 공고문은 왜 이렇게 어렵게 쓰여 있을까", "angle": "관공서 문체와 이해도 격차에 대한 관찰", "status": "published", "slug": "gov-subsidy-notice-language", "publishedAt": "2026-07-06" },
     { "title": "청년들이 가장 자주 놓치는 지원금 유형에 대한 생각", "angle": "신청 자격 오해 패턴 관찰", "status": "published", "slug": "youth-missed-subsidy-patterns", "publishedAt": "2026-07-07" },
     { "title": "금융 상품 약관을 읽는 것도 습관이라는 것을 알게 된 계기", "angle": "약관 확인 습관에 대한 관점", "status": "published", "slug": "financial-terms-reading-habit", "publishedAt": "2026-07-09" },
-    { "title": "지원금 신청 시기를 놓치는 사람들의 공통점", "angle": "신청 기한 관리 습관 관찰", "status": "pending" },
+    { "title": "지원금 신청 시기를 놓치는 사람들의 공통점", "angle": "신청 기한 관리 습관 관찰", "status": "published", "slug": "missed-application-deadline-habits", "publishedAt": "2026-07-10" },
     { "title": "정책이 매년 바뀌는데도 콘텐츠를 계속 만드는 이유", "angle": "콘텐츠 점검 주기에 대한 생각", "status": "pending" },
     { "title": "무료로 받을 수 있는 혜택에 사람들이 의심부터 하는 이유", "angle": "정책 정보에 대한 신뢰 문제 관찰", "status": "pending" },
     { "title": "가계부를 쓰다가 그만두는 사람들을 보며 든 생각", "angle": "지출 관리 습관 지속의 어려움", "status": "pending" },

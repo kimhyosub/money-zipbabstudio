@@ -280,5 +280,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["small-biz-policy-fund-loan-guide", "job-stability-fund-insurance"]
+  },
+  {
+    slug: "happy-card-voucher-guide",
+    title: "국민행복카드로 받는 지원금 종류와 사용처 확인하는 법",
+    summary:
+      "국민행복카드는 임신·출산·양육과 관련된 여러 정부 바우처를 한 장의 카드로 사용할 수 있게 해줍니다. 카드에 담기는 지원금 종류와 사용처를 확인하는 방법을 정리했습니다.",
+    category: "living-saving",
+    publishedAt: "2026-07-10",
+    updatedAt: "2026-07-10",
+    featured: false,
+    hasFaq: true,
+    related: ["bogeumjari24-hidden-benefits", "energy-cashback-electricity-saving"]
   }
 ];

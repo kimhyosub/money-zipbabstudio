@@ -50,5 +50,13 @@ window.COLUMNS = [
       "금융 상품 콘텐츠를 준비하면서 약관을 끝까지 확인하는 습관이 왜 중요한지 깨닫게 된 계기를 정리했습니다.",
     publishedAt: "2026-07-09",
     updatedAt: "2026-07-09"
+  },
+  {
+    slug: "missed-application-deadline-habits",
+    title: "지원금 신청 시기를 놓치는 사람들의 공통점",
+    summary:
+      "정부 지원금 콘텐츠를 정리하다 보면 자격은 충분한데 신청 기한을 놓쳐 혜택을 못 받는 사례를 자주 만납니다. 그 안에서 발견한 공통된 습관을 정리했습니다.",
+    publishedAt: "2026-07-10",
+    updatedAt: "2026-07-10"
   }
 ];
