@@ -292,5 +292,41 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["bogeumjari24-hidden-benefits", "energy-cashback-electricity-saving"]
+  },
+  {
+    slug: "isa-account-tax-exemption-basics",
+    title: "ISA 계좌 비과세 한도와 기본 구조 이해하기",
+    summary:
+      "ISA 계좌는 유형에 따라 비과세 한도와 분리과세 방식이 달라집니다. 일반형·서민형 구분과 비과세·분리과세 구조의 기본 개념을 정리했습니다.",
+    category: "finance-basics",
+    publishedAt: "2026-07-10",
+    updatedAt: "2026-07-10",
+    featured: false,
+    hasFaq: true,
+    related: ["deposit-savings-interest-diff", "credit-score-social-newbie"]
+  },
+  {
+    slug: "overdraft-vs-credit-loan-interest-diff",
+    title: "마이너스통장과 신용대출의 차이, 이자 계산 방식",
+    summary:
+      "마이너스통장과 신용대출은 둘 다 신용을 기반으로 한 대출이지만 이자가 붙는 방식이 근본적으로 다릅니다. 두 상품의 이자 계산 구조 차이를 정리했습니다.",
+    category: "finance-basics",
+    publishedAt: "2026-07-11",
+    updatedAt: "2026-07-11",
+    featured: false,
+    hasFaq: true,
+    related: ["deposit-savings-interest-diff", "credit-score-social-newbie"]
+  },
+  {
+    slug: "culture-nuri-card-guide",
+    title: "문화누리카드 신청 대상과 사용처 확인법",
+    summary:
+      "문화누리카드는 기초생활수급자와 차상위계층에게 문화·여행·체육 활동비를 지원하는 제도입니다. 발급 대상과 신청 방법, 가맹점 확인 요령을 정리했습니다.",
+    category: "gov-subsidy",
+    publishedAt: "2026-07-11",
+    updatedAt: "2026-07-11",
+    featured: false,
+    hasFaq: true,
+    related: ["bogeumjari24-hidden-benefits", "happy-card-voucher-guide"]
   }
 ];
