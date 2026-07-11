@@ -99,6 +99,13 @@
       "type": "column",
       "title": "정책이 매년 바뀌는데도 콘텐츠를 계속 만드는 이유",
       "slug": "policy-change-content-review-cycle"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "post",
+      "category": "finance-basics",
+      "title": "마이너스통장과 신용대출의 차이, 이자 계산 방식",
+      "slug": "overdraft-vs-credit-loan-interest-diff"
     }
   ]
 }
