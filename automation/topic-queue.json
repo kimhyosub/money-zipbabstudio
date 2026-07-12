@@ -2,7 +2,7 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(07:00/13:00 글, 19:00 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다. 정부 지원 정책 관련 글은 구체적인 금액·소득 기준을 단정하지 말고 공식 채널 확인을 안내해야 합니다(CLAUDE.md 참고).",
   "rotation": {
     "categoryOrder": ["gov-subsidy", "youth-policy", "small-biz", "living-saving", "finance-basics"],
-    "lastCategoryIndex": 1,
+    "lastCategoryIndex": 2,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다. 초기값 4는 5개 카테고리에 이미 각 3편씩 수동으로 발행되어 있어, 다음 자동 발행은 인덱스 0(gov-subsidy)부터 시작합니다."
   },
   "postQueue": [
@@ -30,7 +30,7 @@
 
     { "category": "small-biz", "title": "소상공인 정책자금 융자 신청 절차와 준비 서류", "angle": "신청 순서와 필요 서류 정리", "status": "published", "slug": "small-biz-policy-fund-loan-guide", "publishedAt": "2026-07-07" },
     { "category": "small-biz", "title": "신용보증재단 보증서 발급받는 기본 절차", "angle": "보증 심사 절차 이해하기", "status": "published", "slug": "credit-guarantee-foundation-basic-process", "publishedAt": "2026-07-09" },
-    { "category": "small-biz", "title": "온누리상품권 가맹점 등록 조건과 혜택", "angle": "등록 요건과 소비자 할인 구조", "status": "pending" },
+    { "category": "small-biz", "title": "온누리상품권 가맹점 등록 조건과 혜택", "angle": "등록 요건과 소비자 할인 구조", "status": "published", "slug": "onnuri-gift-certificate-merchant-registration", "publishedAt": "2026-07-12" },
     { "category": "small-biz", "title": "소상공인 스마트상점 지원사업 신청 자격", "angle": "디지털 전환 지원 대상 확인", "status": "pending" },
     { "category": "small-biz", "title": "폐업 소상공인 재도전장려금 신청 조건", "angle": "폐업 사유별 지원 요건", "status": "pending" },
     { "category": "small-biz", "title": "사업자 카드수수료 우대 적용받는 법", "angle": "영세·중소가맹점 우대 구간 확인", "status": "pending" },
@@ -68,7 +68,7 @@
     { "title": "지원금 신청 시기를 놓치는 사람들의 공통점", "angle": "신청 기한 관리 습관 관찰", "status": "published", "slug": "missed-application-deadline-habits", "publishedAt": "2026-07-10" },
     { "title": "정책이 매년 바뀌는데도 콘텐츠를 계속 만드는 이유", "angle": "콘텐츠 점검 주기에 대한 생각", "status": "published", "slug": "policy-change-content-review-cycle", "publishedAt": "2026-07-11" },
     { "title": "무료로 받을 수 있는 혜택에 사람들이 의심부터 하는 이유", "angle": "정책 정보에 대한 신뢰 문제 관찰", "status": "published", "slug": "free-benefit-distrust", "publishedAt": "2026-07-11" },
-    { "title": "가계부를 쓰다가 그만두는 사람들을 보며 든 생각", "angle": "지출 관리 습관 지속의 어려움", "status": "pending" },
+    { "title": "가계부를 쓰다가 그만두는 사람들을 보며 든 생각", "angle": "지출 관리 습관 지속의 어려움", "status": "published", "slug": "budget-diary-quitting-habits", "publishedAt": "2026-07-12" },
     { "title": "정부 지원 정책과 사기 문자를 구분하는 게 왜 이렇게 어려운가", "angle": "피싱 문자와 공식 안내 구분 관찰", "status": "pending" },
     { "title": "소상공인 지원 정책을 정리하며 느낀 정보 격차", "angle": "정보 접근성 차이에 대한 관찰", "status": "pending" },
     { "title": "신용점수에 대한 오해들을 정리하며 든 생각", "angle": "흔한 신용점수 오해 관찰", "status": "pending" },

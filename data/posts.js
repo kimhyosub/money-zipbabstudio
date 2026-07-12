@@ -340,5 +340,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["youth-hope-account-tips", "youth-naeil-savings-account-guide"]
+  },
+  {
+    slug: "onnuri-gift-certificate-merchant-registration",
+    title: "온누리상품권 가맹점 등록 조건과 혜택",
+    summary:
+      "온누리상품권 가맹점으로 등록하려면 업종과 매장 규모 등 기본 요건을 충족해야 합니다. 등록 절차와 소비자 할인 구조, 가맹점이 챙길 수 있는 혜택을 정리했습니다.",
+    category: "small-biz",
+    publishedAt: "2026-07-12",
+    updatedAt: "2026-07-12",
+    featured: false,
+    hasFaq: true,
+    related: ["small-biz-policy-fund-loan-guide", "credit-guarantee-foundation-basic-process"]
   }
 ];
