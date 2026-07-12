@@ -328,5 +328,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["bogeumjari24-hidden-benefits", "happy-card-voucher-guide"]
+  },
+  {
+    slug: "youth-hope-savings-to-dream-account-transfer",
+    title: "청년희망적금에서 청년도약계좌로 갈아탄 사람들이 알아야 할 것",
+    summary:
+      "청년희망적금 만기자는 청년도약계좌로 연계 가입해 만기 수령금을 일시납입할 수 있습니다. 일반 신규 가입과 다른 점과 신청 전 확인할 사항을 정리했습니다.",
+    category: "youth-policy",
+    publishedAt: "2026-07-12",
+    updatedAt: "2026-07-12",
+    featured: false,
+    hasFaq: true,
+    related: ["youth-hope-account-tips", "youth-naeil-savings-account-guide"]
   }
 ];
