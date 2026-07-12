@@ -352,5 +352,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["small-biz-policy-fund-loan-guide", "credit-guarantee-foundation-basic-process"]
+  },
+  {
+    slug: "water-bill-reduction-guide",
+    title: "수도요금 감면 대상과 신청 방법",
+    summary:
+      "수도요금은 기초생활수급자, 차상위계층, 장애인, 다자녀가구 등 여러 조건에 따라 감면받을 수 있습니다. 감면 대상 가구와 신청 절차를 정리했습니다.",
+    category: "living-saving",
+    publishedAt: "2026-07-13",
+    updatedAt: "2026-07-13",
+    featured: false,
+    hasFaq: true,
+    related: ["energy-cashback-electricity-saving", "happy-card-voucher-guide"]
   }
 ];
