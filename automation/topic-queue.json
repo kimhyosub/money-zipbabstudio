@@ -2,7 +2,7 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(07:00/13:00 글, 19:00 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다. 정부 지원 정책 관련 글은 구체적인 금액·소득 기준을 단정하지 말고 공식 채널 확인을 안내해야 합니다(CLAUDE.md 참고).",
   "rotation": {
     "categoryOrder": ["gov-subsidy", "youth-policy", "small-biz", "living-saving", "finance-basics"],
-    "lastCategoryIndex": 3,
+    "lastCategoryIndex": 4,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다. 초기값 4는 5개 카테고리에 이미 각 3편씩 수동으로 발행되어 있어, 다음 자동 발행은 인덱스 0(gov-subsidy)부터 시작합니다."
   },
   "postQueue": [
@@ -53,7 +53,7 @@
     { "category": "finance-basics", "title": "청약통장 이자, 언제부터 받을 수 있는지 기본 개념", "angle": "가입 기간별 이자 지급 구조", "status": "published", "slug": "housing-subscription-interest-timing", "publishedAt": "2026-07-07" },
     { "category": "finance-basics", "title": "ISA 계좌 비과세 한도와 기본 구조 이해하기", "angle": "비과세·분리과세 한도 구분", "status": "skipped" },
     { "category": "finance-basics", "title": "마이너스통장과 신용대출의 차이, 이자 계산 방식", "angle": "이자 부과 방식 차이 비교", "status": "published", "slug": "overdraft-vs-credit-loan-interest-diff", "publishedAt": "2026-07-11" },
-    { "category": "finance-basics", "title": "개인신용평가 조회가 신용점수에 영향을 주는지 오해와 진실", "angle": "조회 이력과 점수 영향 여부", "status": "pending" },
+    { "category": "finance-basics", "title": "개인신용평가 조회가 신용점수에 영향을 주는지 오해와 진실", "angle": "조회 이력과 점수 영향 여부", "status": "published", "slug": "credit-inquiry-score-impact-myth", "publishedAt": "2026-07-13" },
     { "category": "finance-basics", "title": "예금자보호한도, 정확히 무엇을 보호하는지", "angle": "보호 대상과 한도 산정 기준", "status": "pending" },
     { "category": "finance-basics", "title": "청년형 소득공제 장기펀드 기본 개념", "angle": "가입 조건과 소득공제 구조", "status": "pending" },
     { "category": "finance-basics", "title": "신용카드 vs 체크카드, 소비 습관에 따른 선택 기준", "angle": "소비 패턴별 카드 선택 기준", "status": "pending" },
