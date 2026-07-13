@@ -5,8 +5,16 @@
     <link>https://info.zipbabstudio.com/</link>
     <description>일상을 바꾸는 현명한 생활 금융 지식과 정부 지원 정보 - 정부 지원금, 청년 정책, 소상공인 지원, 생활 절약, 금융 기초 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://info.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>국가장학금 소득분위 산정 기준 이해하기</title>
+      <link>https://info.zipbabstudio.com/posts/national-scholarship-income-bracket-standard/</link>
+      <guid isPermaLink="true">https://info.zipbabstudio.com/posts/national-scholarship-income-bracket-standard/</guid>
+      <description>국가장학금 지원 구간은 신청자 개인 소득이 아니라 가구 전체의 소득인정액을 기준으로 산정됩니다. 소득분위가 정해지는 구조와 확인 방법을 정리했습니다.</description>
+      <category>정부 지원금</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>정부 지원 정책과 사기 문자를 구분하는 게 왜 이렇게 어려운가</title>
       <link>https://info.zipbabstudio.com/columns/subsidy-scam-text-distinction/</link>
@@ -238,14 +246,6 @@
       <description>통장을 용도별로 나누면 고정지출과 변동지출을 관리하기가 훨씬 수월해집니다. 기본 개념과 시스템을 만드는 순서를 정리했습니다.</description>
       <category>금융 기초</category>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>청년월세 특별지원 신청 서류 및 거주 요건 체크리스트</title>
-      <link>https://info.zipbabstudio.com/posts/youth-rent-support-checklist/</link>
-      <guid isPermaLink="true">https://info.zipbabstudio.com/posts/youth-rent-support-checklist/</guid>
-      <description>청년월세 특별지원은 거주 요건과 서류 준비가 까다로운 편입니다. 신청 전에 확인해야 할 체크리스트를 정리했습니다.</description>
-      <category>청년 정책</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

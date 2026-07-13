@@ -376,5 +376,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["credit-score-social-newbie", "overdraft-vs-credit-loan-interest-diff"]
+  },
+  {
+    slug: "national-scholarship-income-bracket-standard",
+    title: "국가장학금 소득분위 산정 기준 이해하기",
+    summary:
+      "국가장학금 지원 구간은 신청자 개인 소득이 아니라 가구 전체의 소득인정액을 기준으로 산정됩니다. 소득분위가 정해지는 구조와 확인 방법을 정리했습니다.",
+    category: "gov-subsidy",
+    publishedAt: "2026-07-14",
+    updatedAt: "2026-07-14",
+    featured: false,
+    hasFaq: true,
+    related: ["basic-livelihood-income-standard", "earned-income-tax-credit-basic"]
   }
 ];

@@ -2,14 +2,14 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(07:00/13:00 글, 19:00 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다. 정부 지원 정책 관련 글은 구체적인 금액·소득 기준을 단정하지 말고 공식 채널 확인을 안내해야 합니다(CLAUDE.md 참고).",
   "rotation": {
     "categoryOrder": ["gov-subsidy", "youth-policy", "small-biz", "living-saving", "finance-basics"],
-    "lastCategoryIndex": 4,
+    "lastCategoryIndex": 0,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다. 초기값 4는 5개 카테고리에 이미 각 3편씩 수동으로 발행되어 있어, 다음 자동 발행은 인덱스 0(gov-subsidy)부터 시작합니다."
   },
   "postQueue": [
     { "category": "gov-subsidy", "title": "기초생활수급자 생계급여 신청 자격과 소득인정액 기본 개념", "angle": "소득인정액 산정 구조 이해하기", "status": "published", "slug": "basic-livelihood-income-standard", "publishedAt": "2026-07-05" },
     { "category": "gov-subsidy", "title": "근로장려금 반기 신청과 정기 신청의 차이", "angle": "신청 시기별 장단점 비교", "status": "published", "slug": "earned-income-credit-filing-timing-diff", "publishedAt": "2026-07-07" },
     { "category": "gov-subsidy", "title": "문화누리카드 신청 대상과 사용처 확인법", "angle": "발급 조건과 가맹점 확인 방법", "status": "published", "slug": "culture-nuri-card-guide", "publishedAt": "2026-07-11" },
-    { "category": "gov-subsidy", "title": "국가장학금 소득분위 산정 기준 이해하기", "angle": "학자금 지원 구간 판단 기준", "status": "pending" },
+    { "category": "gov-subsidy", "title": "국가장학금 소득분위 산정 기준 이해하기", "angle": "학자금 지원 구간 판단 기준", "status": "published", "slug": "national-scholarship-income-bracket-standard", "publishedAt": "2026-07-14" },
     { "category": "gov-subsidy", "title": "에너지바우처 신청 대상과 사용 기간 확인법", "angle": "대상 가구 요건과 사용 마감일", "status": "pending" },
     { "category": "gov-subsidy", "title": "국민내일배움카드 발급 조건과 훈련비 지원 한도", "angle": "발급 절차와 한도 산정 기준", "status": "pending" },
     { "category": "gov-subsidy", "title": "긴급복지지원제도, 위기 상황에서 확인해야 할 요건", "angle": "지원 대상 위기사유와 신청 절차", "status": "pending" },
