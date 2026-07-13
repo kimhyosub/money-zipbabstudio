@@ -24,7 +24,7 @@
 - 과장/낚시 표현("완벽 정리", "무조건", "100%", "충격" 등) 금지
 - 특정 금융 상품·기관을 홍보하거나 대신 신청을 알선하지 않는다
 - 허위 회사 주소·전화번호 금지, 연락은 이메일만
-- 광고 코드 삽입 금지
+- Google AdSense 스크립트(아래 참고)는 모든 페이지 `<head>`에 반드시 포함한다. 그 외의 임의 광고 코드·제3자 스크립트는 삽입하지 않는다
 - 관리자 모드는 실제 보안 인증이 아님을 명확히 고지 (localStorage 기반 데모)
 - 정책은 자주 개정되므로 "최신 정보는 공식 채널 확인 필요"라는 문구를 본문에 자연스럽게 포함
 
@@ -73,6 +73,15 @@
 3. `small-biz` — 소상공인 지원
 4. `living-saving` — 생활 절약
 5. `finance-basics` — 금융 기초
+
+## Google AdSense 스크립트 (모든 페이지 필수)
+
+모든 HTML 페이지의 `<head>`에는 favicon 링크(`<link rel="icon" ...>`) 바로 다음 줄에 아래 스크립트가 반드시 포함되어야 한다. 새 글/칼럼/카테고리 페이지를 생성할 때도 빠뜨리지 않는다.
+
+```html
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8436574422662926"
+     crossorigin="anonymous"></script>
+```
 
 ## 글/칼럼 구성 요소 (기존 글 패턴 그대로 따를 것)
 

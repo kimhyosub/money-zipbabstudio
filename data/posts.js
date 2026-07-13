@@ -364,5 +364,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["energy-cashback-electricity-saving", "happy-card-voucher-guide"]
+  },
+  {
+    slug: "credit-inquiry-score-impact-myth",
+    title: "개인신용평가 조회가 신용점수에 영향을 주는지 오해와 진실",
+    summary:
+      "본인이 신용점수를 확인하는 것만으로 점수가 떨어진다는 오해가 여전히 많습니다. 조회 이력이 신용점수에 실제로 어떤 영향을 주는지 정리했습니다.",
+    category: "finance-basics",
+    publishedAt: "2026-07-13",
+    updatedAt: "2026-07-13",
+    featured: false,
+    hasFaq: true,
+    related: ["credit-score-social-newbie", "overdraft-vs-credit-loan-interest-diff"]
   }
 ];
