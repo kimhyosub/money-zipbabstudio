@@ -8,6 +8,14 @@
     <lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://info.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>소상공인 지원 정책을 정리하며 느낀 정보 격차</title>
+      <link>https://info.zipbabstudio.com/columns/small-biz-support-info-gap/</link>
+      <guid isPermaLink="true">https://info.zipbabstudio.com/columns/small-biz-support-info-gap/</guid>
+      <description>소상공인 지원 정책 콘텐츠를 정리하다 보면 같은 정책인데도 누구는 알고 누구는 모르는 경우를 자주 만납니다. 그 정보 접근성 차이에 대해 느낀 생각을 정리했습니다.</description>
+      <category>칼럼</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>국가장학금 소득분위 산정 기준 이해하기</title>
       <link>https://info.zipbabstudio.com/posts/national-scholarship-income-bracket-standard/</link>
       <guid isPermaLink="true">https://info.zipbabstudio.com/posts/national-scholarship-income-bracket-standard/</guid>
@@ -238,14 +246,6 @@
       <description>직원을 둔 영세 자영업자라면 일자리 안정자금과 고용보험료 지원을 함께 확인하는 것이 좋습니다. 신청 조건과 절차를 정리했습니다.</description>
       <category>소상공인 지원</category>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>통장 쪼개기 개념과 고정지출 변동지출 관리하는 시스템 구축법</title>
-      <link>https://info.zipbabstudio.com/posts/account-splitting-budget-system/</link>
-      <guid isPermaLink="true">https://info.zipbabstudio.com/posts/account-splitting-budget-system/</guid>
-      <description>통장을 용도별로 나누면 고정지출과 변동지출을 관리하기가 훨씬 수월해집니다. 기본 개념과 시스템을 만드는 순서를 정리했습니다.</description>
-      <category>금융 기초</category>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
