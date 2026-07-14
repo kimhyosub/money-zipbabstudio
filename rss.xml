@@ -5,8 +5,16 @@
     <link>https://info.zipbabstudio.com/</link>
     <description>일상을 바꾸는 현명한 생활 금융 지식과 정부 지원 정보 - 정부 지원금, 청년 정책, 소상공인 지원, 생활 절약, 금융 기초 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://info.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>청년 구직활동지원금 신청 자격과 지급 기준</title>
+      <link>https://info.zipbabstudio.com/posts/youth-job-seeking-allowance-guide/</link>
+      <guid isPermaLink="true">https://info.zipbabstudio.com/posts/youth-job-seeking-allowance-guide/</guid>
+      <description>청년 구직활동지원금은 운영 기관에 따라 이름과 조건이 조금씩 다릅니다. 미취업 청년이 신청 전에 확인해야 할 자격 요건과 지급 방식의 기본 구조를 정리했습니다.</description>
+      <category>청년 정책</category>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>소상공인 지원 정책을 정리하며 느낀 정보 격차</title>
       <link>https://info.zipbabstudio.com/columns/small-biz-support-info-gap/</link>
@@ -238,14 +246,6 @@
       <description>청년도약계좌는 납입 방식에 따라 만기 수령액 차이가 꽤 커집니다. 가입 조건과 납입 전략의 기본기를 정리했습니다.</description>
       <category>청년 정책</category>
       <pubDate>Sat, 20 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>영세 자영업자를 위한 일자리 안정자금 및 고용보험료 지원 신청법</title>
-      <link>https://info.zipbabstudio.com/posts/job-stability-fund-insurance/</link>
-      <guid isPermaLink="true">https://info.zipbabstudio.com/posts/job-stability-fund-insurance/</guid>
-      <description>직원을 둔 영세 자영업자라면 일자리 안정자금과 고용보험료 지원을 함께 확인하는 것이 좋습니다. 신청 조건과 절차를 정리했습니다.</description>
-      <category>소상공인 지원</category>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

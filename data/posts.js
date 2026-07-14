@@ -388,5 +388,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["basic-livelihood-income-standard", "earned-income-tax-credit-basic"]
+  },
+  {
+    slug: "youth-job-seeking-allowance-guide",
+    title: "청년 구직활동지원금 신청 자격과 지급 기준",
+    summary:
+      "청년 구직활동지원금은 운영 기관에 따라 이름과 조건이 조금씩 다릅니다. 미취업 청년이 신청 전에 확인해야 할 자격 요건과 지급 방식의 기본 구조를 정리했습니다.",
+    category: "youth-policy",
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    featured: false,
+    hasFaq: true,
+    related: ["employment-support-type1-type2", "youth-naeil-savings-account-guide"]
   }
 ];

@@ -2,7 +2,7 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(07:00/13:00 글, 19:00 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다. 정부 지원 정책 관련 글은 구체적인 금액·소득 기준을 단정하지 말고 공식 채널 확인을 안내해야 합니다(CLAUDE.md 참고).",
   "rotation": {
     "categoryOrder": ["gov-subsidy", "youth-policy", "small-biz", "living-saving", "finance-basics"],
-    "lastCategoryIndex": 0,
+    "lastCategoryIndex": 1,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다. 초기값 4는 5개 카테고리에 이미 각 3편씩 수동으로 발행되어 있어, 다음 자동 발행은 인덱스 0(gov-subsidy)부터 시작합니다."
   },
   "postQueue": [
@@ -20,7 +20,7 @@
     { "category": "youth-policy", "title": "청년내일저축계좌 가입 조건과 3년 만기 구조", "angle": "근로소득 요건과 매칭 지원금 구조", "status": "published", "slug": "youth-naeil-savings-account-guide", "publishedAt": "2026-07-06" },
     { "category": "youth-policy", "title": "청년 전세자금대출 종류별 한도 비교", "angle": "버팀목·중기청 등 상품별 차이", "status": "published", "slug": "youth-jeonse-loan-types-comparison", "publishedAt": "2026-07-08" },
     { "category": "youth-policy", "title": "청년희망적금에서 청년도약계좌로 갈아탄 사람들이 알아야 할 것", "angle": "연계 가입 시 유의사항", "status": "published", "slug": "youth-hope-savings-to-dream-account-transfer", "publishedAt": "2026-07-12" },
-    { "category": "youth-policy", "title": "청년 구직활동지원금 신청 자격과 지급 기준", "angle": "미취업 청년 대상 요건", "status": "pending" },
+    { "category": "youth-policy", "title": "청년 구직활동지원금 신청 자격과 지급 기준", "angle": "미취업 청년 대상 요건", "status": "published", "slug": "youth-job-seeking-allowance-guide", "publishedAt": "2026-07-15" },
     { "category": "youth-policy", "title": "청년 창업지원금 사업 신청 전 확인할 기본 조건", "angle": "사업 계획서 요건과 자격 기준", "status": "pending" },
     { "category": "youth-policy", "title": "청년 문화예술패스 신청 대상과 사용법", "angle": "발급 연령과 사용처 확인", "status": "pending" },
     { "category": "youth-policy", "title": "청년 자산형성 지원사업, 지자체별 차이 확인하는 법", "angle": "지자체 사업 비교 시 확인 포인트", "status": "pending" },
