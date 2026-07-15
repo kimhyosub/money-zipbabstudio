@@ -400,5 +400,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["employment-support-type1-type2", "youth-naeil-savings-account-guide"]
+  },
+  {
+    slug: "small-biz-smart-store-support-eligibility",
+    title: "소상공인 스마트상점 지원사업 신청 자격",
+    summary:
+      "소상공인 스마트상점 지원사업은 매장에 키오스크, 태블릿 오더 같은 디지털 기기를 도입할 때 비용 일부를 지원하는 제도입니다. 신청 대상과 확인해야 할 조건을 정리했습니다.",
+    category: "small-biz",
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    featured: false,
+    hasFaq: true,
+    related: ["small-biz-policy-fund-loan-guide", "onnuri-gift-certificate-merchant-registration"]
   }
 ];
