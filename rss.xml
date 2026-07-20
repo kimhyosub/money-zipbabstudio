@@ -5,8 +5,24 @@
     <link>https://info.zipbabstudio.com/</link>
     <description>일상을 바꾸는 현명한 생활 금융 지식과 정부 지원 정보 - 정부 지원금, 청년 정책, 소상공인 지원, 생활 절약, 금융 기초 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 15 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://info.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>도시가스 캐시백 신청 조건과 절감 요령</title>
+      <link>https://info.zipbabstudio.com/posts/city-gas-cashback-guide/</link>
+      <guid isPermaLink="true">https://info.zipbabstudio.com/posts/city-gas-cashback-guide/</guid>
+      <description>도시가스 캐시백은 전년 동기간 대비 가스 사용량을 줄이면 절감률에 따라 캐시백을 받는 제도입니다. 신청 방법과 절감률을 높이는 요령을 정리했습니다.</description>
+      <category>생활 절약</category>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>생활비를 아끼는 사람들의 공통된 습관</title>
+      <link>https://info.zipbabstudio.com/columns/living-cost-saving-common-habits/</link>
+      <guid isPermaLink="true">https://info.zipbabstudio.com/columns/living-cost-saving-common-habits/</guid>
+      <description>생활 절약 콘텐츠를 준비하다 보면 절약을 잘하는 사람들에게서 반복적으로 발견되는 몇 가지 습관이 있습니다. 그 공통점을 정리하며 느낀 생각입니다.</description>
+      <category>칼럼</category>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>소상공인 스마트상점 지원사업 신청 자격</title>
       <link>https://info.zipbabstudio.com/posts/small-biz-smart-store-support-eligibility/</link>
@@ -238,14 +254,6 @@
       <description>하반기에는 여러 지원 정책의 신청 시기와 조건이 갱신됩니다. 콘텐츠를 정리하는 입장에서 느낀, 변화에 대응하는 태도에 관한 이야기입니다.</description>
       <category>칼럼</category>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>신용점수 올리는 법: 사회초년생이 체크해야 할 신용 관리 습관</title>
-      <link>https://info.zipbabstudio.com/posts/credit-score-social-newbie/</link>
-      <guid isPermaLink="true">https://info.zipbabstudio.com/posts/credit-score-social-newbie/</guid>
-      <description>신용점수는 특별한 이벤트보다 꾸준한 습관에서 갈립니다. 사회초년생이 놓치기 쉬운 신용 관리 습관을 정리했습니다.</description>
-      <category>금융 기초</category>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

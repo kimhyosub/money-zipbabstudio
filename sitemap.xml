@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://info.zipbabstudio.com/</loc><lastmod>2026-07-15</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://info.zipbabstudio.com/</loc><lastmod>2026-07-20</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://info.zipbabstudio.com/about/</loc><lastmod>2026-01-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://info.zipbabstudio.com/author/</loc><lastmod>2026-07-05</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://info.zipbabstudio.com/contact/</loc><lastmod>2026-01-01</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
@@ -8,7 +8,7 @@
   <url><loc>https://info.zipbabstudio.com/categories/gov-subsidy/</loc><lastmod>2026-07-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://info.zipbabstudio.com/categories/youth-policy/</loc><lastmod>2026-07-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://info.zipbabstudio.com/categories/small-biz/</loc><lastmod>2026-07-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://info.zipbabstudio.com/categories/living-saving/</loc><lastmod>2026-07-13</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://info.zipbabstudio.com/categories/living-saving/</loc><lastmod>2026-07-20</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://info.zipbabstudio.com/categories/finance-basics/</loc><lastmod>2026-07-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://info.zipbabstudio.com/columns/</loc><lastmod>2026-07-05</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://info.zipbabstudio.com/columns/subsidy-tech-filtering/</loc><lastmod>2026-04-05</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -24,6 +24,7 @@
   <url><loc>https://info.zipbabstudio.com/columns/subsidy-scam-text-distinction/</loc><lastmod>2026-07-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://info.zipbabstudio.com/columns/small-biz-support-info-gap/</loc><lastmod>2026-07-14</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://info.zipbabstudio.com/columns/credit-score-common-misconceptions/</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://info.zipbabstudio.com/columns/living-cost-saving-common-habits/</loc><lastmod>2026-07-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://info.zipbabstudio.com/posts/bogeumjari24-hidden-benefits/</loc><lastmod>2026-01-12</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://info.zipbabstudio.com/posts/earned-income-tax-credit-basic/</loc><lastmod>2026-04-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://info.zipbabstudio.com/posts/employment-support-type1-type2/</loc><lastmod>2026-02-03</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -58,6 +59,7 @@
   <url><loc>https://info.zipbabstudio.com/posts/national-scholarship-income-bracket-standard/</loc><lastmod>2026-07-14</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://info.zipbabstudio.com/posts/youth-job-seeking-allowance-guide/</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://info.zipbabstudio.com/posts/small-biz-smart-store-support-eligibility/</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://info.zipbabstudio.com/posts/city-gas-cashback-guide/</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://info.zipbabstudio.com/privacy/</loc><lastmod>2026-01-01</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://info.zipbabstudio.com/terms/</loc><lastmod>2026-01-01</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://info.zipbabstudio.com/disclaimer/</loc><lastmod>2026-01-01</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>

@@ -412,5 +412,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["small-biz-policy-fund-loan-guide", "onnuri-gift-certificate-merchant-registration"]
+  },
+  {
+    slug: "city-gas-cashback-guide",
+    title: "도시가스 캐시백 신청 조건과 절감 요령",
+    summary:
+      "도시가스 캐시백은 전년 동기간 대비 가스 사용량을 줄이면 절감률에 따라 캐시백을 받는 제도입니다. 신청 방법과 절감률을 높이는 요령을 정리했습니다.",
+    category: "living-saving",
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    featured: false,
+    hasFaq: true,
+    related: ["energy-cashback-electricity-saving", "water-bill-reduction-guide"]
   }
 ];
